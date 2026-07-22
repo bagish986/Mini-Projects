@@ -48,7 +48,7 @@ body{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    border-bottom: 5px solid black;    
 }
 .num1{
     font-size: 40px;

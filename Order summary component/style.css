@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+}
+.container{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+}
+#img1{
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content{
+    text-align: center;
+}
+h2{
+    margin-top: 1rem;
+}
+#desc{
+    margin-top: 1rem;
+    opacity: 0.6;
+    line-height: 1.28rem;
+}
+.plan{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.plan img{
+    width: 40px;
+    margin-left: 10px;
+}
+.plan p{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 0.91rem;
+}
+.plan span{
+    margin-left: px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+.plan a{
+    margin-left: 40px;
+    font-size: 0.8rem;
+}
+button{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(19, 19, 224);
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 0px 6px 1px blue;
+}
+#Cancel{
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
