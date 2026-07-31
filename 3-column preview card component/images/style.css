@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(40, 23%, 97%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.box {
+  width: 250px;
+  max-height: 100vh;
+  color: white;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.box1 {
+  background-color: #e6950a;
+}
+.box2 {
+  background-color: #0c8abcd9;
+}
+.box3 {
+  background-color: rgb(3, 50, 18);
+}
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  opacity: 0.6;
+  line-height: 25px;
+}
+button {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.box1 button {
+  color: #e6950a;
+}
+.box2 button {
+  color: #0c8abcd9;
+}
+.box3 button {
+  color: rgb(3, 50, 18);
+}
+.box1 button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #e6950a;
+  cursor: pointer;
+}
+.box2 button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #0c8abcd9;
+  cursor: pointer;
+}
+.box3 button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(3, 50, 18);
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .box {
+    width: 350px;
+    height: 430px;
+  }
+}

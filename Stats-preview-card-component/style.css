@@ -15,7 +15,7 @@ body{
 }
 .content{
     width: 500px;
-    height: 350px;
+    min-height: 350px;
     background-color: #1C1938;
 }
 .image{
@@ -58,6 +58,7 @@ h2 span{
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 .info p{
     font-size: 20px;
@@ -70,4 +71,12 @@ h2 span{
     font-size: 10px;
     margin-top: 6px;
     opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+@media(max-width:750px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
